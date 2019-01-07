@@ -61,7 +61,7 @@ body{
 
 
 /********** Extra small devices only **********/
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   #collapsable-nav a { /* Collapsed nav menu text */
     overflow: hidden;
     color: #666;
