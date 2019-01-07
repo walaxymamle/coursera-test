@@ -31,12 +31,15 @@ body{
 	text-decoration: none;
 }
 
-.hh2{
-	text-align: center;
-	color: #000;
-	background-color: #fff;
-	font-size: 1.5em;
-	font-weight: bolder;
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.element {
+  .center-block();
+  text-align: center;
 }
 .hh3{
 	text-align: center;
