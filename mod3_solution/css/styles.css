@@ -1,0 +1,89 @@
+body{
+	font-size: 16px;
+	color: #000;
+	background-color: #fff;
+	font-family: "Oxygen", sans-serif;
+}
+
+/*---Header styling ---*/
+#header-nav{
+	background-color: #666;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand{
+	padding-top: 25px;
+}
+/* ---styling company name ---*/
+.navbar-brand h1{
+	font-family: "Lora", serif;
+    color: #000;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.hh2{
+	text-align: center;
+	color: #000;
+	background-color: #fff;
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+.hh3{
+	text-align: center;
+}
+
+.container-fluid{
+	color: #000;
+	background-color: #666;
+	font-size: 1.0em;
+	height: 1000px;
+
+}
+
+#nav-list{
+	text-align: center;
+	background-color: #fff;
+	color: #000;
+	font-size: 1.0em;
+	font-weight: bold;
+}
+
+
+
+/********** Extra small devices only **********/
+@media (min-width: 992px) {
+  #collapsable-nav a { /* Collapsed nav menu text */
+    overflow: hidden;
+    color: #666;
+    background-color: #666;
+  }
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* company name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
